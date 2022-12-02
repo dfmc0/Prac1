@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<html>
+        <head>
+            <title> display JavaScript alert </title>
+        </head>
+        <script>
+        function showPopup()
+        {
+            var data = document.getElementById("value").value;
+            //check empty data field
+            if(data == "")
+            {
+               alert("Please enter any value..");
+            }
+            else
+            {
+                alert("Your entered value is: "+data); //display variable along with the string
+            }
+        }
+        </script>
+        <body>
+    
+            <h1 style="color:blueviolet">DelftStack</h1>
+            <h3>JavaScript display alert box</h3>
+    
+            <form onsubmit ="return showPopup()">
+                <!-- data input -->
+                <td> Enter Value: </td>
+                <input id = "value" value = "">
+                <br><br>
+                <input type = "submit" value = "Submit">
+            </form>
+        </body>
+   
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
