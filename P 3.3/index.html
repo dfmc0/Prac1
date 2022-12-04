@@ -7,13 +7,13 @@
         var nombre = document.getElementById("nombre").value;
         var apellido = document.getElementById("apellido").value;
         function mifuncion() {
-            alert('Bienvenido' +nombre);
+            alert('Bienvenido' );
         }
     </script>
 </head>
 
 <body>
-    <form onsubmit="mifuncion()" method="get">
+    <form method="post" enctype="text">
         <h1 class="title2"> Practica 3.3 </h1>
         <p>Introduce Nombre <input id="nombre" type="text"  value=""> Apellido 1 <input id="apellido" type="text" value="" ></p>
         <input type="submit">
