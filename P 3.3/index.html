@@ -4,8 +4,6 @@
     <link rel="stylesheet" href="style.css">
     <!-- script nuevo -->
     <script>
-        var nombre = document.getElementById("nombre").value;
-        var apellido = document.getElementById("apellido").value;
         function mifuncion() {
             alert('Bienvenido' );
         }
@@ -13,9 +11,9 @@
 </head>
 
 <body>
-    <form method="post" enctype="text">
+    <form action="" method="get" >
         <h1 class="title2"> Practica 3.3 </h1>
-        <p>Introduce Nombre <input id="nombre" type="text"  value=""> Apellido 1 <input id="apellido" type="text" value="" ></p>
+        <p>Introduce Nombre: <input id="nombre" type="text" name="nombre" value=""> Apellido 1: <input id="apellido" type="text" name="apellido" value="" ></p>
         <input type="submit">
        
     </form>
