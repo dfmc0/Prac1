@@ -15,15 +15,35 @@ body {
     color: rgb(255, 0, 0);
   }
 
-  .contenedor {
-    display: flex;
-    justify-content: center;
+  .titulo {
+    margin-top: 50px;
+    text-align: center;
   }
   .oriente {
-    width:200px;
+    width:250px;
     height:150px;
   }
   .polonorte{
-    width:200px;
+    width:250px;
     height:150px;
+  }
+  .paisvasco{
+    width:250px;
+    height:150px;
+  }
+  .alcoy{
+    width:250px;
+    height:150px;
+  }
+  .cataluña{
+    width:250px;
+    height:150px;
+  }
+  .columnas3{
+    width: 33.333%;
+    float: left;
+  }
+  .columnas2{
+    width: 50%;
+    float: left;
   }
