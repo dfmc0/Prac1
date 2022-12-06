@@ -6,6 +6,12 @@
 .body{
     background-color: antiquewhite;
 }
+#lacarta{
+    color: rgb(230, 61, 0);
+    font-weight:400;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #Carta{
     height: 150px;
     width: 150px;
