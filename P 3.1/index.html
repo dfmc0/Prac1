@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Funciona -->
+    <link rel="stylesheet" href="style.css">
+    <!-- script nuevo -->
+    <script>
+       
+        function mifuncion() {
+            n= document.getElementById("nombre").value;
+            a= document.getElementById("apellido").value;
+            alert('Bienvenido: '+n+" "+a);
+        }
+    </script>
+</head>
+
+<body>
+    <form method="post" enctype="text">
+        <h1 class="title2"> Practica 3.3 </h1>
+        <p>Introduce Nombre <input id="nombre" type="text"  > Apellido 1 <input id="apellido" type="text"> </p>
+        <input text type="submit" onclick="mifuncion()">
+       
+    </form>
+
+</body>
+</html>
