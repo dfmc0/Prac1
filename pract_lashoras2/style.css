@@ -1,0 +1,20 @@
+#titulo{
+    color: rgb(155, 70, 0);
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.body{
+    background-color: antiquewhite;
+}
+#Carta{
+    height: 150px;
+    width: 150px;
+}
+#Cafe{
+    height: 150px;
+    width: 150px;
+}
+#Contacto{
+    height: 150px;
+    width: 150px;
+}
