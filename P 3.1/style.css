@@ -1,18 +1,6 @@
-p.especial0{
-    color: red;
+p{
+    color: black;
 }
-p.especial1{
-    color: green;
-}
-p.especial2{
-    color: blue;
-}
-h1.title0{
-    color: red;
-}
-h1.title1{
-    color: green;
-}
-h1.title2{
+h1.title{
     color: blue;
 }
