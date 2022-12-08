@@ -11,16 +11,23 @@
     font-weight:400;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
+#elcafe{
+    color: orangered;
+    font-weight: bold;
+    font-family:Verdana, ;
+}
 #Carta{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 250px;
 }
 #Cafe{
     height: 150px;
     width: 150px;
 }
 #Contacto{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
+}
+.Tcontacto{
+    right: 100px;
 }
