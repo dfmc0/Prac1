@@ -5,22 +5,40 @@
     <link rel="stylesheet" href="style.css">
     <!-- script nuevo -->
     <script>
-        
+        //Esta es la cración del script para que aparezca el nombre y apellido //        
         function mifuncion() {
             nombre= document.getElementById("nombre").value;
             apellido= document.getElementById("apellido").value;
-            alert('Bienvenido: '+nombre+" "+apellido);
+            // Este es el mensaje que aparecerá//
+            alert("Bienvenido: "+nombre+" "+apellido);
+        }
+        // Se ha ejecutado el onekeydown
+        function viernes1{
+            alert("Se ha ejecutado el onekeydown")
+        }
+        // Se ha ejecutado el onekeydown
+        function viernes2{
+            alert("Se ha ejecutado el onekeypress")
+        }
+        // Se ha ejecutado el onekeydown
+        function vierne3{
+            alert("Se ha ejecutado el onekeyup")
         }
     </script>
 </head>
 
 <body>
+    <!-- Esto es el formulario para la tarea con el script de mi funcion -->
     <form method="post" enctype="text">
         <h1 class="title"> Practica 3.3 </h1>
         <p>Introduce Nombre <input id="nombre" type="text"  > Apellido 1 <input id="apellido" type="text"> </p>
         <input text type="submit" onclick="mifuncion()">
-       
     </form>
 
+    <!--Este es para el viernes1 -->
+    <p>Prueba <input type="text"  onkeypress="viernes2"> </p>
+    <!--Este es para el viernes2 -->
+
+    <!--Este es para el viernes3 -->
 </body>
 </html>
