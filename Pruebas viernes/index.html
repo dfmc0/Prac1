@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Funciona -->
+    <link rel="stylesheet" href="style.css">
+    <!-- script nuevo -->
+    <script>  
+        // Se ha ejecutado el onekeydown
+        function viernes1 () {
+            alert("Se ha ejecutado el onekeydown");
+        }
+        // Se ha ejecutado el onekeydown
+        function viernes2 (){
+            alert("Se ha ejecutado el onekeypress");
+        }
+        // Se ha ejecutado el onekeydown
+        function viernes3 (){
+            alert("Se ha ejecutado el onekeyup");
+        }
+        function viernes4 (){
+            alert ("se ha ejecutado el onblur")
+        }
+    </script>
+</head>
+
+<body>
+    <h1> Prubeas </h1>
+
+        <!--Este es para el viernes1 = onekeydown -->
+        <p>Prueba 1<input type="text" onkeydown="viernes1 ()"> </p>
+        <!--Este es para el viernes2 = onekeypress-->
+        <p>Prueba 2<input type="text" onkeypress="viernes2 ()"> </p>
+        <!--Este es para el viernes3 onekeyup -->
+        <p>Prueba 3<input type="text" onkeyup="viernes3 ()"> </p>
+        <!--Este es para el viernes4-->
+        <p>Prueba 4<input type="text" onblur="viernes4 ()"> </p>
+
+</body>
+</html>
